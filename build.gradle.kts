@@ -42,7 +42,7 @@ dependencies {
     // Test-only: JUnit 5 + a real sqlite driver + an slf4j binding for the storage logger.
     testImplementation("org.junit.jupiter:junit-jupiter:6.1.3")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-    testImplementation("org.slf4j:slf4j-simple:2.0.18")
+    testImplementation("org.slf4j:slf4j-simple:2.0.19")
     testRuntimeOnly("org.xerial:sqlite-jdbc:3.53.2.1")
     testImplementation("com.zaxxer:HikariCP:7.1.0")
     testImplementation("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
