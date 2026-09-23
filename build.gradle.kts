@@ -36,8 +36,8 @@ dependencies {
     compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.15") // pulls worldedit-bukkit transitively
     compileOnly("com.github.GriefPrevention:GriefPrevention:18.0.0")
 
-    compileOnly("org.projectlombok:lombok:1.18.46")
-    annotationProcessor("org.projectlombok:lombok:1.18.46")
+    compileOnly("org.projectlombok:lombok:1.18.48")
+    annotationProcessor("org.projectlombok:lombok:1.18.48")
 
     // Test-only: JUnit 5 + a real sqlite driver + an slf4j binding for the storage logger.
     testImplementation("org.junit.jupiter:junit-jupiter:6.1.3")
